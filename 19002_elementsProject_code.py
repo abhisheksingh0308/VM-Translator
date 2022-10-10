@@ -20,10 +20,8 @@ def my_getter(get):
                 print("A=D+M")
                 print("D=M")
                 print("@SP")
-                print("A=M")
-                print("M=D")
-                print("@SP")
                 print("M=M+1")
+                print('m-n+1")
             else:
                 print("Sorry, the 3rd input section must be a number !")
         elif (my_arr[1] == "argument"):
