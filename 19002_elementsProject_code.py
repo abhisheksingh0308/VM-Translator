@@ -28,12 +28,7 @@ def my_getter(get):
             if (my_arr[2].isdigit()):
                 print("@" + my_arr[2])
                 print("D=A")
-                print("@ARG")
-                print("A=D+M")
-                print("D=M")
-                print("@SP")
-                print("A=M")
-                print("M=D")
+
                 print("@SP")
                 print("M=M+1")
             else:
@@ -71,8 +66,7 @@ def my_getter(get):
                 print("@" + my_arr[2])
                 print("D=A")
                 print("@THIS")
-                print("A=D+M")
-                print("D=M")
+                print("Sai")
                 print("@SP")
                 print("A=M")
                 print("M=D")
