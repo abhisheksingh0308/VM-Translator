@@ -186,7 +186,7 @@ def my_getter(get):
                 print("A=M")
                 print("M=D")
             else:
-                print("Sorry, the 3rd input section must be a number !")
+                print("Sorr bruh !")
         elif (my_arr[1] == "that"):
             if (my_arr[2].isdigit()):
                 print("@" + my_arr[2])
@@ -210,9 +210,6 @@ def my_getter(get):
                 print("@3")
                 print("D=D+A")
                 print("@R5")
-                print("M=D")
-                print("@SP")
-                print("AM=M-1")
                 print("D=M")
                 print("@R5")
                 print("A=M")
@@ -290,19 +287,12 @@ def my_getter(get):
         print("M=-1")
         print("(dead)")
     elif (my_arr[0] == "eq"):
-        print("@SP")
-        print("AM=M-1")
         print("D=M")
         print("A=A-1")
         print("D=M-D")
-        print("@positive")
         print("D;JEQ")
         print("@SP")
         print("A=M-1")
-        print("M=0")
-        print("@dead")
-        print("0;JMP")
-        print("(positive)")
         print("@SP")
         print("A=M-1")
         print("M=-1")
